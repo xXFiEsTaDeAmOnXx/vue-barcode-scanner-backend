@@ -20,10 +20,11 @@ app.options('*', cors());
 // Hello World for index page
 app.get('/api/item/:id', function (req, res) {
     const id = req.params.id;
+    console.log(id)
     fs.readFile('./db.txt','utf-8',(err,content)=>{
       if(err) throw err;
       res.writeHead(200)
-      const item = JSON.parse(content).filter(product => product.barcode === id)[0]
+      const item = JSON.parse(content).filter(product => product.barcode == id)[0]
       res.write(JSON.stringify(item))
       return res.end()
   })
