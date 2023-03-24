@@ -1,1 +1,1 @@
-[{"name":"Krumbach Wasserflasche","pictureLoc":"/api/image/krumbach.jpg","barcode":4009228120053},{"name":"Aqua Wasserflasche","pictureLoc":"/api/image/aqua.jpg","barcode":4001428065417},{"name":"Kreidebox","pictureLoc":"/api/image/kreidebox.jpeg","barcode":12134}]
+[{"name":"Krumbach Wasserflasche","pictureLoc":"/api/image/krumbach.jpg","barcode":4009228120053},{"name":"Aqua Wasserflasche","pictureLoc":"/api/image/aqua.jpg","barcode":4001428065417},{"name":"Kreidebox","pictureLoc":"/api/image/kreidebox.jpeg","barcode":4059549000152}]
