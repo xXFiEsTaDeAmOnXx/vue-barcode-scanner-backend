@@ -11,7 +11,7 @@ const port = process.env.PORT || 3000;
 // Create the Express app & setup middlewares
 const app = express();
 app.use(express.json()) // parses incoming json requests
-app.use(cors({ origin: ["/http:\/\/(127(\.\d){3}|localhost","https://polite-ocean-0e8387d10.2.azurestaticapps.net/"]}));
+app.use(cors({ origin: "*"}));
 app.options('*', cors());
 
 // Hello World for index page
